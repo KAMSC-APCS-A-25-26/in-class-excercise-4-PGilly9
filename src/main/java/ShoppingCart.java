@@ -9,12 +9,12 @@ public class ShoppingCart {
         double price = 0;
         // TODO: Use a for loop to read each item's price (double)
         for(int i=1;i<items+1;i++){
-            System.out.print("Enter price for item " + i + "? ");
+            System.out.print("Price of item " + i + "? ");
             price += scan.nextDouble();
         }
         // TODO: Accumulate the total cost
         // TODO: Print the final summary line with item count and total
         // TODO: Use Scanner for input
-        System.out.println("Your cart has " + items + "items with a total cost of " + price);
+        System.out.println("Your cart has " + items + " items with a total cost of $" + price);
     }
 }
